@@ -186,4 +186,3 @@ SELECTED_DATASET = "my-data"
 ---
 
 **You're all set!** Run `python scripts/unified_train.py` and select option 1 to start training. 🎉
-# MadeAI
