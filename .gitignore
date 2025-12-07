@@ -1,0 +1,46 @@
+# Ignore Python cache and temp files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Model files (large)
+models/
+*.bin
+*.safetensors
+*.gguf
+*.pth
+
+# Data files
+data/processed/
+*.db
+*.jsonl
+train.jsonl
+
+# Training logs
+logs/
+wandb/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter - allow .ipynb files for Colab
+.ipynb_checkpoints/
+
+# Keep directory structure
+!models/.gitkeep
+!data/.gitkeep
